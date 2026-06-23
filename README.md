@@ -20,10 +20,10 @@ Made with precision and material aesthetics by **antunlar**.
 
 ##  Core Specifications
 
-*   **Min SDK:** 26 (Android 8.0 Oreo)
-*   **Root requirements:** Standard SuperUser (`su`) access for sysfs manipulation.
-*   **UI Framework:** Jetpack Compose (Material Design 3 with dynamic dark/light surface pairing)
-*   **Database Engine:** Room persistence engine for custom values caching and history.
+*   ** Min SDK:** 26 (Android 8.0 Oreo)
+*   ** Root requirements:** Standard SuperUser (`su`) access for sysfs manipulation.
+*   ** UI Framework:** Jetpack Compose (Material Design 3 with dynamic dark/light surface pairing)
+*   ** Database Engine:** Room persistence engine for custom values caching and history.
 
 ---
 
