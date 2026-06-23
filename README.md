@@ -17,21 +17,18 @@ Made with precision and material aesthetics by **antunlar**.
 
 ---
 
-## 🛠️ GitHub Integration Setup (How to set it up!)
+## 🛠️ GitHub Integration Setup
 
-To use the **in-app custom path submission tool** and send data directly from LuxKey to your repository server:
+The custom path submission service is **fully automated** out-of-the-box:
 
-1.  **Create a GitHub Repository:**
-    *   Log in to Github and create a repository (e.g., `yourusername/luxkey-paths` or keep it private/public).
-2.  **Generate a Personal Access Token (PAT):**
-    *   Navigate to **Settings > Developer Settings > Personal Access Tokens > Tokens (classic)**.
-    *   Click **Generate new token**.
-    *   Select the **`repo`** scope (or **`public_repo`** scope if your repository is public). This is required to write issues.
-    *   Copy the generated token string safely.
-3.  **Run the Submission Dialog in LuxKey:**
-    *   Tap the **Cloud Upload icon (FAB)** in the bottom right corner (placed nicely above the refresh button).
-    *   Pasted your **Personal Access Token** and enter your **Repository Path** (`owner/repo` format, such as `yourusername/luxkey-paths`).
-    *   Tap **Odeslat**. An issue detailing your brand, phone model, active/inactive values, and verified sysfs paths will be uploaded automatically!
+1.  **Configure Environment Variables (Optional):**
+    *   To customize the target repository or use your own Personal Access Token (PAT), define `GITHUB_PAT` and `GITHUB_REPO` in the **Secrets panel in AI Studio** (which automatically maps to `.env`).
+2.  **Zero-configuration Fallback:**
+    *   By default, the application is pre-configured with the secure database repo **`antunlargg/luxkey-db`** and corresponding credentials.
+3.  **Submit Backlight Profile:**
+    *   Tap the **Cloud Upload icon (FAB)** in the bottom right corner (placed beautifully above the sync refresh button).
+    *   The dialog automatically displays your detected phone brand, model, customized path, and verified active/inactive values.
+    *   Add any custom remarks in **Poznámky k zařízení** and click **Odeslat**. The backlight node will be published immediately to the remote LuxKey database! All credentials remain perfectly hidden from the user interface.
 
 ---
 

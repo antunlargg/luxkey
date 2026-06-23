@@ -1,0 +1,6 @@
+{
+  "name": "LuxKey",
+  "description": "Root-access controller to completely disable or customize capacitive key backlighting on custom Android ROMs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

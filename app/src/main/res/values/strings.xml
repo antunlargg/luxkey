@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">LuxKey</string>
+    <string name="title_app">LuxKey</string>
+    <string name="status_title">Backlight Status</string>
+    <string name="status_enabled">ENABLED</string>
+    <string name="status_disabled">DISABLED</string>
+    <string name="btn_turn_on">Enable Backlight</string>
+    <string name="btn_turn_off">Disable Backlight</string>
+    <string name="path_label">Brightness File Path:</string>
+    <string name="custom_path">Custom Path</string>
+    <string name="root_status">Root Status:</string>
+    <string name="root_ok">Root Granted</string>
+    <string name="root_err">No Root Access!</string>
+    <string name="widget_toggle">Toggle Backlight</string>
+    
+    <string name="verified_paths_title">Verified Paths</string>
+    <string name="devices_header">Devices</string>
+    <string name="official_fw">Official FW</string>
+    <string name="custom_rom">Custom ROM</string>
+    <string name="samsung_a3_havoc">Samsung Galaxy A3 2017 (HavocOS)</string>
+    <string name="apply_preset_toast">Device profile applied successfully!</string>
+    <string name="custom_path_saved">Custom path saved!</string>
+    <string name="values_saved">Brightness values updated!</string>
+    <string name="cmd_logs">Command Execution History</string>
+    <string name="clear_logs">Clear</string>
+    <string name="empty_logs">No command executions logged yet</string>
+    <string name="copy_toast">Copied to clipboard</string>
+</resources>
